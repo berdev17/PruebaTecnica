@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3JYAN8DvCYF2u1m9xfsLVNDLslI3vuLWGCJ3Qn/gUZo=",
+  "Source": "PruebaTecnicaAPI",
+  "BasePath": "_content/PruebaTecnicaAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -148,3 +148,5 @@ C:\Users\berna\OneDrive\Documents\.Pueblo Paleta\Trabajo\Practicas\Prueba Tecnic
 C:\Users\berna\OneDrive\Documents\.Pueblo Paleta\Trabajo\Practicas\Prueba Tecnica Cemex\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.pdb
 C:\Users\berna\OneDrive\Documents\.Pueblo Paleta\Trabajo\Practicas\Prueba Tecnica Cemex\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.genruntimeconfig.cache
 C:\Users\berna\OneDrive\Documents\.Pueblo Paleta\Trabajo\Practicas\Prueba Tecnica Cemex\PruebaTecnicaAPI\obj\Debug\net8.0\ref\PruebaTecnicaAPI.dll
+C:\Users\berna\OneDrive\Documents\.Pueblo Paleta\Trabajo\Practicas\Prueba Tecnica Cemex\PruebaTecnicaAPI\obj\Debug\net8.0\PruebaTecnicaAPI.sourcelink.json
+C:\Users\berna\OneDrive\Documents\.Pueblo Paleta\Trabajo\Practicas\Prueba Tecnica Cemex\PruebaTecnicaAPI\bin\Debug\net8.0\Dapper.dll

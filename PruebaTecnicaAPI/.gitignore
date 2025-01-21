@@ -1,0 +1,18 @@
+# Ignorar la carpeta .vs de Visual Studio
+.vs/
+
+# Ignorar bin y obj (directorios de compilación de .NET)
+bin/
+obj/
+
+# Archivos de configuración del usuario
+*.user
+*.suo
+
+# Archivos generados por el entorno de desarrollo
+*.log
+*.vsidx
+*.vspx
+
+# Ignorar carpetas de publicación
+publish/

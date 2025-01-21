@@ -96,8 +96,9 @@ namespace PruebaTecnicaAPI.Controllers
             return Ok(categoria);
 
         }
+
         [HttpPut("DeleteCategoria{id}")]
-        public IActionResult DeleteCategoria(int id, CategoriaDto categorias)
+        public IActionResult DeleteCategoria(int id)
         {
             var categoria = dbContext.Categorias.Find(id);
             if (categoria == null)

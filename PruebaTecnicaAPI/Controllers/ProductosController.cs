@@ -100,7 +100,7 @@ namespace PruebaTecnicaAPI.Controllers
 
         }
         [HttpPut("DeleteProducto{id}")]
-        public IActionResult DeleteProducto(int id, ProductosDto productos)
+        public IActionResult DeleteProducto(int id)
         {
             var producto = dbContext.Productos.Find(id);
             if (producto == null)

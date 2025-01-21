@@ -1,0 +1,19 @@
+.Layout{
+    min-height: "100vh"
+}
+
+.logo{
+    color: "#fff";
+    text-align:  "center"; 
+    padding: "16px";
+}
+
+.header{
+    background: "#fff";
+    padding: 0;
+    text-align: "center";
+}
+
+.outlet-Content{
+    margin: "16px";
+}

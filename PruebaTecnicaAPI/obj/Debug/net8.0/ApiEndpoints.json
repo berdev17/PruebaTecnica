@@ -27,11 +27,6 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
-      },
-      {
-        "Name": "categorias",
-        "Type": "PruebaTecnicaAPI.Models.AddDto.CategoriaDto",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -110,11 +105,6 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "productos",
-        "Type": "PruebaTecnicaAPI.Models.AddDto.ProductosDto",
         "IsRequired": true
       }
     ],

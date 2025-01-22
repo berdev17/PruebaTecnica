@@ -1,31 +1,19 @@
 import React, { useEffect, useState } from "react";
-import { Table, Button, Modal, Form, Input, Popconfirm, message, Space } from "antd";
-import { getAllCategorias, AddNewCategoria, UpdateCategoria, deleteCategoria } from "../Services/categoriaService";
+import { Table, Button, Modal, Form, Input, Popconfirm, Space } from "antd";
+import useCategoriasStore from "../Store/categoriasStore";
 
 const CategoriasGrid = () => {
-  const [categorias, setCategorias] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingCategoria, setEditingCategoria] = useState(null);
+
+  const { categorias, loading, fetchCategorias, addCategoria, updateCategoria, deleteCategoria } = useCategoriasStore();
 
   const [form] = Form.useForm();
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const categoriasData = await getAllCategorias();
-        setCategorias(categoriasData);
-      } catch (err) {
-        message.error("Error al cargar las categorías.");
-      } finally {
-        setLoading(false);
-      }
-    };
+    fetchCategorias();
+  }, [fetchCategorias]);
 
-    fetchData();
-  }, []);
-
-  // Abrir modal para agregar o editar
   const openModal = (categoria = null) => {
     setEditingCategoria(categoria);
     setIsModalOpen(true);
@@ -36,7 +24,6 @@ const CategoriasGrid = () => {
     }
   };
 
-  // Cerrar modal
   const closeModal = () => {
     setIsModalOpen(false);
     setEditingCategoria(null);
@@ -45,39 +32,23 @@ const CategoriasGrid = () => {
   const handleSave = async () => {
     try {
       const values = await form.validateFields();
-      console.log("Datos enviados:", values); // Verifica los datos
-  
       if (editingCategoria) {
-        await UpdateCategoria(editingCategoria.id, values);
-        setCategorias((prev) =>
-          prev.map((c) => (c.id === editingCategoria.id ? { ...c, ...values } : c))
-        );
-        message.success("Categoría actualizada correctamente.");
+        await updateCategoria(editingCategoria.id, values);
       } else {
-        const newCategoria = await AddNewCategoria({ ...values, creadoPor: 1 });
-        setCategorias((prev) => [...prev, newCategoria]);
-        message.success("Categoría agregada correctamente.");
+        await addCategoria({ ...values, creadoPor: 1 });
       }
       closeModal();
-    } catch (error) {
-      console.error("Error al guardar:", error); // Más información sobre el error
-      message.error("Error al guardar la categoría.");
+    } catch {
+      // El mensaje de error se maneja en el store
     }
   };
-  
 
   const handleDelete = async (id) => {
-    try {
-      await deleteCategoria(id);
-      setCategorias((prev) => prev.filter((c) => c.id !== id));
-      message.success("Categoría eliminada correctamente.");
-    } catch (error) {
-      message.error("Error al eliminar la categoría.");
-    }
+    await deleteCategoria(id);
   };
 
   const columns = [
-    { title: "ID", dataIndex: "id", key: "id" },
+    { title: "#", dataIndex: "id", key: "id" },
     { title: "Nombre", dataIndex: "nombre", key: "nombre" },
     { title: "Descripción", dataIndex: "descripcion", key: "descripcion" },
     { title: "Estado", dataIndex: "estadoNombre", key: "estadoNombre" },

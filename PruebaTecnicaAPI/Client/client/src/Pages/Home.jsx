@@ -17,10 +17,11 @@ const Home = () => {
     <div style={{ padding: "20px" }}>
       {/* Título y descripción */}
       <Typography style={{ textAlign: "center", marginBottom: "40px" }}>
-        <Title>Welcome to My App</Title>
+        <Title>Bienvenido a la Client App</Title>
         <Paragraph>
-          Discover amazing features and explore the world of possibilities. This is a simple home
-          page designed to showcase the power of React and Ant Design.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
         </Paragraph>
       </Typography>
 

@@ -74,7 +74,7 @@ const ProductGrid = () => {
     { title: 'Estado', dataIndex: 'estadoNombre', key: 'estadoNombre' },
     { title: 'Usuario', dataIndex: 'usuario', key: 'usuario' },
     { title: 'Fecha Creación', dataIndex: 'fechaCreacion', key: 'fechaCreacion' },
-    { title: 'Modificado Por', dataIndex: 'modificadoPor', key: 'modificadoPor' },
+    { title: 'Modificado Por', dataIndex: 'usuarioModificado', key: 'usuarioModificado' },
     { title: 'Fecha Modificación', dataIndex: 'fechaModificacion', key: 'fechaModificacion' },
     {
       title: 'Acciones',

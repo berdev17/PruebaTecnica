@@ -1,32 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|c:\\users\\berna\\onedrive\\documents\\.pueblo paleta\\trabajo\\practicas\\prueba tecnica cemex\\pruebatecnicaapi\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|c:\\users\\berna\\onedrive\\documents\\.pueblo paleta\\trabajo\\practicas\\prueba tecnica cemex\\pruebatecnicaapi\\models\\viewmodels\\vmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|solutionrelative:models\\viewmodels\\vmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|c:\\users\\berna\\onedrive\\documents\\.pueblo paleta\\trabajo\\practicas\\prueba tecnica cemex\\pruebatecnicaapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|c:\\users\\berna\\onedrive\\documents\\.pueblo paleta\\trabajo\\practicas\\prueba tecnica cemex\\pruebatecnicaapi\\models\\viewmodels\\vmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|solutionrelative:models\\viewmodels\\vmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|c:\\users\\berna\\onedrive\\documents\\.pueblo paleta\\trabajo\\practicas\\prueba tecnica cemex\\pruebatecnicaapi\\models\\.entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|solutionrelative:models\\.entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|c:\\users\\berna\\onedrive\\documents\\.pueblo paleta\\trabajo\\practicas\\prueba tecnica cemex\\pruebatecnicaapi\\data\\aplicationdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA4E2376-D18A-403A-A37C-619900BD130A}|PruebaTecnicaAPI.csproj|solutionrelative:data\\aplicationdbcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,86 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "vmCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Models\\ViewModels\\vmCategorias.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\vmCategorias.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Models\\ViewModels\\vmCategorias.cs",
-              "RelativeToolTip": "Models\\ViewModels\\vmCategorias.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T02:06:06.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwCgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T04:11:35.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "Controllers\\ProductosController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwCkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:13:30.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "vmProductos.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Models\\ViewModels\\vmProductos.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\vmProductos.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Models\\ViewModels\\vmProductos.cs",
-              "RelativeToolTip": "Models\\ViewModels\\vmProductos.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T03:30:17.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AplicationDbContextExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Data\\AplicationDbContextExtensions.cs",
-              "RelativeDocumentMoniker": "Data\\AplicationDbContextExtensions.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Data\\AplicationDbContextExtensions.cs",
-              "RelativeToolTip": "Data\\AplicationDbContextExtensions.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T03:07:56.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Models\\.Entities\\Categoria.cs",
-              "RelativeDocumentMoniker": "Models\\.Entities\\Categoria.cs",
-              "ToolTip": "C:\\Users\\berna\\OneDrive\\Documents\\.Pueblo Paleta\\Trabajo\\Practicas\\Prueba Tecnica Cemex\\PruebaTecnicaAPI\\Models\\.Entities\\Categoria.cs",
-              "RelativeToolTip": "Models\\.Entities\\Categoria.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T19:57:10.604Z"
             }
           ]
         }

@@ -8,7 +8,7 @@ const Home = () => {
     const imageUrls = [
         "https://cdn.pixabay.com/photo/2016/10/28/13/09/usa-1777986_1280.jpg",
         "https://media.istockphoto.com/id/2156176090/photo/times-square-in-new-york-city.jpg?s=2048x2048&w=is&k=20&c=42gYc_tKkiB8oW4-oxNKiLFy_vRvRPm6hD94p5muQGs=",
-        "https://media.istockphoto.com/id/946087016/photo/aerial-view-of-lower-manhattan-new-york.jpg?s=2048x2048&w=is&k=20&c=Www08BB4-g-9qC5qOyTgLkWm33ZffoXahmrXFJSxRVw=",
+        "https://media.istockphoto.com/id/2156276371/photo/tatsumi-bashi-bridge-during-full-bloom-cherry-blossom-in-kyoto-japan.jpg?s=2048x2048&w=is&k=20&c=tIU5OVwY0pzsC3uvisC1yvdUOcwJo6kmdkx2OMBz5hw=",
         "https://media.istockphoto.com/id/1474651053/photo/moscow-skyline-with-cathedral-of-vasily-the-blessed-and-spasskaya-tower-on-red-square-russia.jpg?s=2048x2048&w=is&k=20&c=Si_5AtPOvZxEwzP3iC1QotXMpw_6gN_6nr-0yrxcBUM=",
         "https://media.istockphoto.com/id/494611794/photo/view-on-bruges.jpg?s=2048x2048&w=is&k=20&c=qenf2D1lAAplhsOzMTJqUfVafwxuJ9Y92aJlXKov3Fo=",
         "https://media.istockphoto.com/id/902966276/photo/kyoto-japan-in-spring.jpg?s=2048x2048&w=is&k=20&c=mg1W2Bl851dx_-J8upYWCKeK6BYco9wwsC32J3aLrhs=",

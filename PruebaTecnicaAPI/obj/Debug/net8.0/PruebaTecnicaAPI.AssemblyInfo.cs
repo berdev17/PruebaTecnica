@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaTecnicaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8c07674e9c7b6924070118c5f9877270ed284c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79c03107879a8947053050eb52796beb2e6bcf9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaTecnicaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaTecnicaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

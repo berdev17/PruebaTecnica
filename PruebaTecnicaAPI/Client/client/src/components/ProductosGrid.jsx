@@ -50,6 +50,7 @@ const ProductGrid = () => {
         await addProducto(values);
         message.success('Producto agregado correctamente.');
       }
+      await fetchProductos();
       closeModal();
     } catch (error) {
       message.error('Error al guardar el producto.');

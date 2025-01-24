@@ -13,6 +13,7 @@ namespace PruebaTecnicaAPI.Models.ViewModels
         public required int CreadoPor { get; set; }
         public string Usuario {  get; set; }
         public DateTime FechaCreacion { get; set; }
+        public string? UsuarioModificado { get; set; }
         public int? ModificadoPor { get; set; }
         public DateTime? FechaModificacion { get; set; }
     }

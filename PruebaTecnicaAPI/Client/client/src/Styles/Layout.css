@@ -17,3 +17,7 @@
 .outlet-Content{
     margin: "16px";
 }
+
+.Menu-grid{
+    overflow: hidden;
+}

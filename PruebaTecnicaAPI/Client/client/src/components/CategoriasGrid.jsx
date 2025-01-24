@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Table, Button, Modal, Form, Input, Popconfirm, Space } from "antd";
+import { Table, Button, Modal, Form, Input, Popconfirm, Space, message, } from "antd";
 import useCategoriasStore from "../Store/categoriasStore";
 
 const CategoriasGrid = () => {
@@ -37,9 +37,11 @@ const CategoriasGrid = () => {
       } else {
         await addCategoria({ ...values, creadoPor: 1 });
       }
+      await fetchCategorias();
       closeModal();
-    } catch {
-      // El mensaje de error se maneja en el store
+    } catch (error) {
+      message.error('Error al guardar la categoria.');
+
     }
   };
 
@@ -54,7 +56,7 @@ const CategoriasGrid = () => {
     { title: "Estado", dataIndex: "estadoNombre", key: "estadoNombre" },
     { title: "Usuario", dataIndex: "usuario", key: "usuario" },
     { title: "Fecha Creación", dataIndex: "fechaCreacion", key: "fechaCreacion" },
-    { title: "Modificado Por", dataIndex: "modificadoPor", key: "modificadoPor" },
+    { title: "Modificado Por", dataIndex: "usuarioModificado", key: "usuarioModificado" },
     { title: "Fecha Modificación", dataIndex: "fechaModificacion", key: "fechaModificacion" },
     {
       title: "Acciones",

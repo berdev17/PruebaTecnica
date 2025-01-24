@@ -7,7 +7,6 @@ const ProductoStore = create((set) => ({
   categorias: [],
   loading: false,
 
-  // Fetch Productos y Categorías
   fetchProductos: async () => {
     set({ loading: true });
     try {
@@ -29,7 +28,6 @@ const ProductoStore = create((set) => ({
     }
   },
 
-  // Add Producto
   addProducto: async (producto) => {
     try {
       const newProducto = await AddNewProducto({ ...producto, creadoPor: 1 });
@@ -39,7 +37,6 @@ const ProductoStore = create((set) => ({
     }
   },
 
-  // Update Producto
   updateProducto: async (id, updatedData) => {
     try {
       await updateProducto(id, updatedData);
@@ -53,7 +50,6 @@ const ProductoStore = create((set) => ({
     }
   },
 
-  // Delete Producto
   deleteProducto: async (id) => {
     try {
       await deleteProducto(id);

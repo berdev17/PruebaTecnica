@@ -32,6 +32,7 @@ namespace PruebaTecnicaAPI.Controllers
                     p.CreadoPor,
                     p.Usuario,
                     p.FechaCreacion,
+                    p.UsuarioModificado,
                     p.FechaModificacion,
 
                 })
@@ -39,11 +40,6 @@ namespace PruebaTecnicaAPI.Controllers
                 .ToList();
                 
             return Ok(AllProductos);
-
-            //var allProductos = dbContext.Productos
-            //                    .Where(p => p.Estado != 2) 
-            //                    .ToList();
-            //return Ok(allProductos);
 
         }
 
